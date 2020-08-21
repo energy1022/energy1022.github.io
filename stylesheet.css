@@ -1,0 +1,226 @@
+header{
+    height: 65px;
+    width :100%;
+    background-color: rgba(34,49,52,0.9);
+    position: fixed;  
+    top: 0;
+    z-index: 10;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header-logo{
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(256, 128, 100);
+    padding: 20px 20px;
+}
+
+.header-right{
+    float: right;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+.profile{
+    padding: 50px 20px 50px 20px;
+}
+
+.introduction{
+    font-weight: bolder;
+    color: rgb(45, 123, 121);
+}
+
+.profile-prelist{
+    border-bottom: solid;
+}
+
+.profile-list{
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+
+.blog-introduction{
+    font-weight: bolder;
+    border-bottom: 1px solid;
+}
+
+.signup{
+    background-color: rgba(101, 222, 247, 0.9);
+}
+
+.btn{
+    padding: 8px 24px;
+    color: rgb(5, 38, 52);
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.fa{
+    margin-right: 5px;
+}
+
+
+
+#submit-btn{
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: #5dca88;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.faq-wrapper{
+    background-color: #e6ecf0;
+    text-align: center;
+    padding-bottom: 80px;
+    color: #5f5d60;
+}
+
+#faq-list{
+    width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.faq-list-item{
+    margin: 10px;
+    border-bottom: 1px solid slategray;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+}
+
+.faq-list-item h3{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.faq-list-item span{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color:black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.answer{
+    font-size: 12px;
+    display: none;   /*非表示にしておく*/
+    padding: 5px 0px;
+    margin-bottom: 15px;
+}
+
+.form-modal-wrapper{
+    display: none;  /*初期状態で見れないようにする*/
+    position: fixed;  /*永遠固定状態位置に*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+}
+
+.modal{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: #e6ecf0;
+    padding: 20px 0 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: auto;
+    text-align: center;
+}
+
+.fa-times{
+    position: absolute;
+    top: 12%;
+    right: 12px;
+    color: rgba(128,128,128,0.46);
+    cursor: pointer;
+}
+
+.opinion-introduction{
+    font-weight: bolder;
+    color: rgb(45, 123, 121);
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+#opinion-form{
+    width: 100%;
+}
+
+#opinion-form h2{
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;  
+}
+
+#opinion-form input, #opinion-form textarea{
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 12px 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+}
+
+#submit-btn{
+    display: inline-block;
+    padding: 14px 140px;
+    background-color: rgba(101, 222, 247, 0.9);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+.footer-logo{
+    float: left;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(256, 128, 100);
+    padding: 20px 20px;
+}
+
+footer{
+    border-top: 1px solid rgba(238, 238, 238, 0.687);
+}
+
+
+
+
+
+
